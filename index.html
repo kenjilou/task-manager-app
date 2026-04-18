@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+  <html lang="ja">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>TaskFlow - Modern Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TaskFlow</h1>
+        <p>Simple and Smart Task Management</p>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="New task...">
+              <button id="addBtn" class="primary-btn">Add</button>
+          </div>
+          <ul id="taskList"></ul>
+          <div id="emptyState" style="display: none;">No tasks. Add a new one!</div>
+          <div id="loadingState" style="display: none;">Loading...</div>
+          <div id="errorState" style="display: none;">An error occurred. Please try again.</div>
+      </div>
+      <script src="script.js"></script>
+  </body>
+  </html>
